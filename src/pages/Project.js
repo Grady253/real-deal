@@ -2,7 +2,6 @@ import React from "react";
 import { Center, Container, Heading, SimpleGrid, Box, Image, IconButton } from "@chakra-ui/react";
 import { FaGithub, FaLink } from "react-icons/fa";
 import data from "../componets/data";
-import { auto } from "@popperjs/core";
 
 export default function Project(){
     return(
