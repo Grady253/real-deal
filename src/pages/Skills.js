@@ -1,4 +1,5 @@
 import { Box, Center, Container, Heading, SimpleGrid,Text } from "@chakra-ui/react";
+import iconData from "../componets/iconData";
 import React from "react";
 
 export default function Skills() {
@@ -12,12 +13,9 @@ export default function Skills() {
         </Center>
       <Center>
       <SimpleGrid column={2} spacing={10}>
-        <Box w="800px" bg="gray" height="150px"></Box>
-        <Box w="800px" bg="gray" height="150px"></Box>
-        <Box w="800px" bg="gray" height="150px"></Box>
-        <Box w="800px" bg="gray" height="150px"></Box>
-        <Box w="800px" bg="gray" height="150px"></Box>
-        <Box w="800px" bg="gray" height="150px"></Box>
+        {iconData.map(({id,icon})=>(
+          <Box w='30px' p={6} key={id}>{icon}</Box>
+        ))}
       </SimpleGrid>
       </Center>
     </Container>

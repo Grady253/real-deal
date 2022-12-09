@@ -11,13 +11,15 @@ import {
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import img from "../image/Andre.png";
+import pdf from "../utilities/andreResume.pdf";
 
 export default function HomePage() {
   return (
     <Container>
       <HStack p={130} ml={250}>
         <Image
-          borderRadius="Full"
+          id="andre"
+          borderRadius="full"
           boxSize="650px"
           objectFit="contain"
           src={img}
@@ -35,16 +37,17 @@ export default function HomePage() {
               rel="noreferrer"
               href="https://www.linkedin.com/in/andre-grady-a70237190/"
             >
-              <IconButton ml={90} size="3xl" icon={<FaLinkedin />}></IconButton>
+              <IconButton ml={90} icon={<FaLinkedin />}></IconButton>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Grady253"
             >
-              <IconButton size="lg" icon={<FaGithub />}></IconButton>
+              <IconButton icon={<FaGithub />}></IconButton>
             </a>
           </ButtonGroup>
+          <a style={{textDecoration:'none'}}href={pdf} download><Text ml={45} color='black' fontSize='lg'>Download Resume</Text></a>
         </Text>
       </HStack>
     </Container>

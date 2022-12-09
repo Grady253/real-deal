@@ -17,7 +17,7 @@ const iconData =[
     },
     {
         "id":4,
-        "icon":"react js"
+        "icon":"React"
     },
     {
         "id":5,

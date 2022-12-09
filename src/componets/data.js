@@ -1,9 +1,9 @@
-import MusicMatchimg from "../Assets/image/Music-Match.png";
-import PasswordGenerator from "../Assets/image/PasswordGenerator.png";
-import DailyPlanner from "../Assets/image/DailyPlanner.png";
-import BookSearch from "../Assets/image/BookSearch.png";
-import NoteTaker from "../Assets/image/NoteTaker.png";
-import TravelMoney from "../Assets/image/TravelMoney.png";
+import MusicMatchimg from "../image/Music-Match.png";
+import PasswordGenerator from "../image/PasswordGenerator.png";
+import DailyPlanner from "../image/DailyPlanner.png";
+import BookSearch from "../image/BookSearch.png";
+import NoteTaker from "../image/NoteTaker.png";
+import TravelMoney from "../image/TravelMoney.png";
 
 const data = [
     {
