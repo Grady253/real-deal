@@ -60,5 +60,7 @@ const data = [
       repository: "https://github.com/KarlOL82/travel_money",
       url: "https://karlol82.github.io/travel_money/index.html",
     },
-  ];
-  export default data;
+];
+export default data;
+
+
