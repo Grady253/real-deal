@@ -9,6 +9,7 @@ import {
   Spacer,
   ButtonGroup,
 } from "@chakra-ui/react";
+import Typewriter from 'typewriter-effect';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import img from "../image/Andre.png";
 import pdf from "../utilities/andreResume.pdf";
@@ -16,7 +17,7 @@ import pdf from "../utilities/andreResume.pdf";
 export default function HomePage() {
   return (
     <Container>
-      <HStack p={130} ml={250}>
+      <HStack p={100} ml={250}>
         <Image
           id="andre"
           borderRadius="full"
@@ -25,9 +26,15 @@ export default function HomePage() {
           src={img}
           alt="Andre Grady"
         />
-        <Text pb={300} fontSize="25px">
+        <Text pb={200} fontSize="25px">
           <Heading size="6xl" fontSize="50px">
-            Andre' Grady
+          <Typewriter
+          options={{
+            strings:["Andre' Grady"],
+            autoStart:true,
+            loop:true
+          }}
+        />
           </Heading>
           Front-end Web Developer.
           <Spacer />
