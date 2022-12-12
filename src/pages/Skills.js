@@ -14,7 +14,7 @@ export default function Skills() {
       <Center>
       <SimpleGrid column={2} spacing={10}>
         {iconData.map(({id,icon})=>(
-          <Box w='30px' p={6} key={id}>{icon}</Box>
+          <Box w='30px' p={16} key={id}>{icon}</Box>
         ))}
       </SimpleGrid>
       </Center>

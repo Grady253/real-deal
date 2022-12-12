@@ -3,6 +3,7 @@ import NavBar from "./componets/NavBar";
 import Homepage from "./pages/HomePage";
 import Skills from "./pages/Skills";
 import Project from './pages/Project';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Homepage/>
     <Skills/>
     <Project/>
+    <Contact/>
     </main>
     </>
   );

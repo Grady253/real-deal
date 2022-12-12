@@ -37,14 +37,14 @@ export default function HomePage() {
               rel="noreferrer"
               href="https://www.linkedin.com/in/andre-grady-a70237190/"
             >
-              <IconButton ml={90} icon={<FaLinkedin />}></IconButton>
+              <IconButton size='md' ml={90} icon={<FaLinkedin />}/>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Grady253"
             >
-              <IconButton icon={<FaGithub />}></IconButton>
+              <IconButton size="lg" icon={<FaGithub />}/>
             </a>
           </ButtonGroup>
           <a style={{textDecoration:'none'}}href={pdf} download><Text ml={45} color='black' fontSize='lg'>Download Resume</Text></a>

@@ -1,4 +1,4 @@
-
+// import javascript from '../image/Javascript.png';
 
 
 const iconData =[

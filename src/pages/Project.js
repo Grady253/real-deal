@@ -7,7 +7,7 @@ export default function Project(){
     return(
        <Container>
            <Center>
-           <Heading as='h1' fontSize='60px'>My PortFolio</Heading>
+            <Heading as='h1' fontSize='60px'>My PortFolio</Heading>
            </Center>
             <SimpleGrid columns={2} spacing={3} ml={35}>
             {data.map(({ title, description, image, repository, url})=> (
@@ -21,15 +21,17 @@ export default function Project(){
                         <Box mt='2' fontWeight='medium' as='h4' lineHeight='tight'>
                             {description}
                         </Box>
-                        <Box as='span' ml={2} fontSize='lg'>
+                        <Center>
+                        <Box as='span' fontSize='lg'>
                             <a target='_blank' rel='noreferrer' href={repository}>
-                             <IconButton m={3} size="lg" icon={<FaGithub/>}></IconButton>
+                                <IconButton m={3} size="lg" icon={<FaGithub/>}></IconButton>
                             </a>
+
                             <a target='_blank' rel="noreferrer" href={url}>
                                 <IconButton m={3}  size='lg' icon={<FaLink/>}></IconButton>
                             </a>
-                        
                         </Box>
+                        </Center>
                     </Box>
                 </Box>
             ))}
