@@ -79,7 +79,7 @@ export default function HomePage(){
         <Center>
         <Text as='b' fontSize='70px'>
           Hello, my name is{''}
-          <Heading size='4xl' color='#611C35' fontSize='100px'>
+          <Heading size='4xl' color='#611C35' fontSize='110px'>
             <Typewriter
             options={{
               strings:["Andre' Grady."],

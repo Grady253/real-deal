@@ -12,8 +12,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <Container p={20} id='skill'>
-
+    <Container p={20} id="skill">
       <Center>
         <Heading as="h1" fontSize="60px">
           {" "}
@@ -25,18 +24,19 @@ export default function Skills() {
           Here below are some technologies I've grasped great understanding of.
         </Text>
       </Center>
-      
+      <Center>
         <Flex minWidth="max-content" alignItems="center">
           <SimpleGrid row={2} spacing={15}>
             {iconData.map(({ id, icon }) => (
               <Image
-                style={{ width: 190, height: 160}}
+                style={{ width: 150, height: 150 }}
                 src={icon}
                 alt="Skills picture"
               />
             ))}
           </SimpleGrid>
         </Flex>
+      </Center>
     </Container>
   );
 }

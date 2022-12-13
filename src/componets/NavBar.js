@@ -36,19 +36,22 @@ import { Flex } from "@chakra-ui/layout";
 export default function NavBar(){
   return(
     <Flex w='100%'>
-    <Menu >
+    <Menu>
       <Spacer/>
       <MenuButton
       as={IconButton}
       aria-label='Options'
       icon={<HamburgerIcon/>}
       m={10} w={60} h={60}
+      borderRadius='20%'
       variant= 'outline'
       />
       <MenuList w={200} h={200}>
+      <a color='black' href="#home">
       <MenuItem icon={<FaHome/>}>
         Home
-      </MenuItem>
+      </MenuItem> 
+      </a>  
       <MenuItem icon={<FaCode/>}>
         Portfolio
       </MenuItem>
@@ -62,4 +65,4 @@ export default function NavBar(){
     </Menu>
     </Flex>
   )
-}
+};

@@ -9,7 +9,7 @@ export default function Project(){
            <Center>
             <Heading as='h1' fontSize='60px'>My PortFolio</Heading>
            </Center>
-            <SimpleGrid columns={2} spacing={3} ml={35}>
+            <SimpleGrid columns={2} spacing={3} ml={30}>
             {data.map(({ title, description, image, repository, url})=> (
                 <Box maxW='sm' minH='xl' borderWidth='2px' borderRadius='lg' overflow='hidden'>
                     
