@@ -1,35 +1,41 @@
-// import javascript from '../image/Javascript.png';
+import react from "../image/Icon/react.svg";
+import html from "../image/Icon/html.svg";
+import css from "../image/Icon/css3.svg";
+import javascript from "../image/Icon/javascript.svg";
+import bootstrap from "../image/Icon/bootstrap.svg";
+import npm from "../image/Icon/npm.svg";
+import mongo from "../image/Icon/mongodb.svg";
 
 
 const iconData =[
     {
       "id":1,
-      "icon":"Html"
+      "icon":bootstrap
     },
   
     {
       "id":2,
-      "icon":"Css"
+      "icon":css
     },
     {
         "id":3,
-        "icon":"javascript"
+        "icon":html
     },
     {
         "id":4,
-        "icon":"React"
+        "icon":javascript
     },
     {
         "id":5,
-        "icon":"Bootstrap"
+        "icon":mongo
     },
     {
         "id":6,
-        "icon":"Chakra"
+        "icon":npm
     },
     {
         "id":7,
-        "icon":"npm"
+        "icon":react
     }
 ];
 
