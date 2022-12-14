@@ -1,5 +1,6 @@
-import { Container, Heading, Center, Text } from "@chakra-ui/layout";
+import { Container, Heading, Center, Text} from "@chakra-ui/layout";
 import React from "react";
+
 
 export default function Contact(){
     return(
@@ -11,6 +12,7 @@ export default function Contact(){
                 <Text fontSize='25px'>
                     I'd love to get in touch! Here are my socials below.
                 </Text>
+               
             </Center>
         </Container>
     )

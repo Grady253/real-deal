@@ -47,7 +47,7 @@ export default function NavBar(){
       variant= 'outline'
       />
       <MenuList w={200} h={200}>
-      <a color='black' href="#home">
+      <a href="#home">
       <MenuItem icon={<FaHome/>}>
         Home
       </MenuItem> 

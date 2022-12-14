@@ -1,6 +1,5 @@
 import React from "react";
-import { Center, Container, Heading, SimpleGrid, Box, Image, IconButton } from "@chakra-ui/react";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { Center, Container, Heading, SimpleGrid, Box, Image, Button, Stack} from "@chakra-ui/react";
 import data from "../componets/data";
 
 export default function Project(){
@@ -22,15 +21,17 @@ export default function Project(){
                             {description}
                         </Box>
                         <Center>
+                        <Stack spacing={20} direction='row' align='center'>
                         <Box as='span' fontSize='lg'>
                             <a target='_blank' rel='noreferrer' href={repository}>
-                                <IconButton m={3} size="lg" icon={<FaGithub/>}></IconButton>
+                                <Button mr={10} size='lg'>Repo</Button>
                             </a>
 
                             <a target='_blank' rel="noreferrer" href={url}>
-                                <IconButton m={3}  size='lg' icon={<FaLink/>}></IconButton>
+                                <Button size='md'>Link</Button>
                             </a>
                         </Box>
+                        </Stack>
                         </Center>
                     </Box>
                 </Box>
